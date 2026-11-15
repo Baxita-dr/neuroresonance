@@ -1,0 +1,21 @@
+{
+  "seed": 20261115,
+  "replicates": 1000,
+  "sample_rate_hz": 10.0,
+  "analysis_window_s": 100.0,
+  "toy_scenarios": {
+    "same_frequency_phase_locked": {
+      "n": 1000,
+      "median_plv_percent": 99.72540894511967,
+      "q05": 99.07314158963327,
+      "q95": 99.95312337363872
+    },
+    "independent_frequency_oscillators": {
+      "n": 1000,
+      "median_plv_percent": 14.312623785031066,
+      "q05": 3.780069693968819,
+      "q95": 92.0530265679903
+    }
+  },
+  "interpretation": "Synthetic engineering check only. These oscillator distributions are not participant data, a validated physiological null, a significance test, or evidence for biological coupling."
+}
